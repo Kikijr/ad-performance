@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13233f"/>
+      <stop offset="1" stop-color="#0a1628"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#2f9be6"/>
+      <stop offset="1" stop-color="#8fdcff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <!-- Balkendiagramm -->
+  <rect x="232" y="560" width="120" height="232" rx="28" fill="url(#bar)"/>
+  <rect x="402" y="440" width="120" height="352" rx="28" fill="url(#bar)"/>
+  <rect x="572" y="320" width="120" height="472" rx="28" fill="url(#bar)"/>
+  <!-- Play-Symbol (Video) -->
+  <path d="M742 232 L742 412 L882 322 Z" fill="#5cc4ff" stroke="#5cc4ff" stroke-width="24" stroke-linejoin="round"/>
+</svg>
